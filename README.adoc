@@ -17,7 +17,7 @@ Notice that this repo already provides the `Gemfile`, `antora-assembler.yml`, an
 
 [source,zsh]
 ----
-npx antora site.yml**
+npx antora site.yml
 ----
 
 
