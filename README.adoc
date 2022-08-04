@@ -1,6 +1,6 @@
 = Sample project to reproduce PDF generation issues
 
-This is for investigating the https://gitlab.com/antora/antora-assembler/-/blob/main/README.adoc[Antora Assembler]
+This is for investigating https://gitlab.com/antora/antora-assembler/[Antora Assembler]
 to produce PDFs in an Antora-native way, rather than our current hacks.
 
 It aims to reproduce problems encountered when generating PDFs that aren't seen when generating HTML.
