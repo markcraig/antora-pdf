@@ -15,19 +15,15 @@ Notice that this repo already provides the `Gemfile`, `antora-assembler.yml`, an
 
 == Build HTML
 
-[source,zsh,subs="quotes"]
+[source,zsh]
 ----
-*npx antora site.yml*
-Site generation complete!
-Open file:///path/to/antora-pdf/build/site/index.html in a browser to view your site.
+npx antora site.yml**
 ----
 
 
 == Build PDF
 
-[source,zsh,subs="quotes"]
+[source,zsh]
 ----
-*npx antora site-pdf.yml*
-Site generation complete!
-Open file:///path/to/antora-pdf/build/site in a browser to view your site.
+npx antora site-pdf.yml
 ----
