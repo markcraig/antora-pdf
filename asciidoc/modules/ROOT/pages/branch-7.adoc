@@ -1,0 +1,5 @@
+= All the fixes on branch 7
+
+include::example:ROOT:partial$fixes-7.adoc[]
+
+include::example:ROOT:partial$fixes-6.adoc[]

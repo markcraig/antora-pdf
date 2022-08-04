@@ -1,0 +1,3 @@
+= All the fixes on branch 6
+
+include::example:ROOT:partial$fixes-6.adoc[]

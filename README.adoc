@@ -1,0 +1,33 @@
+= Sample project to reproduce PDF generation issues
+
+This is for investigating the https://gitlab.com/antora/antora-assembler/-/blob/main/README.adoc[Antora Assembler]
+to produce PDFs in an Antora-native way, rather than our current hacks.
+
+It aims to reproduce problems encountered when generating PDFs that aren't seen when generating HTML.
+
+== Before you start
+
+Follow the instructions in the 
+https://gitlab.com/antora/antora-assembler/-/blob/main/README.adoc[Antora Assembler README]
+to install the software you need for the builds.
+
+Notice that this repo already provides the `Gemfile`, `antora-assembler.yml`, and `pdf-theme.yml` files.
+
+== Build HTML
+
+[source,zsh,subs="quotes"]
+----
+*npx antora site.yml*
+Site generation complete!
+Open file:///path/to/antora-pdf/build/site/index.html in a browser to view your site.
+----
+
+
+== Build PDF
+
+[source,zsh,subs="quotes"]
+----
+*npx antora site-pdf.yml*
+Site generation complete!
+Open file:///path/to/antora-pdf/build/site in a browser to view your site.
+----

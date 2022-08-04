@@ -1,0 +1,6 @@
+= Home
+
+This is the start page.
+
+* xref:example:ROOT:branch-7.adoc[]
+* xref:example:ROOT:branch-6.adoc[]

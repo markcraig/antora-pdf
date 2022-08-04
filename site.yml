@@ -1,0 +1,24 @@
+site:
+  title: Example docs
+  url: https://example.com/docs
+  start_page: example:ROOT:index.adoc
+content:
+  sources:
+    - url: .
+      start_path: asciidoc
+ui:
+  bundle:
+    url: https://cdn.forgerock.com/docs-ui/dev/ui-bundle.zip
+    snapshot: true
+asciidoc:
+  attributes:
+    # Site Settings
+    example-caption: ~     # Disable prefixing example captions with "Example X"
+    experimental: ''       # Enable Experimental Mode (necessary for some asciidoc settings)
+    icons: font            # Enable Font Awesome Icons
+    idprefix: ''           # Don't automatically add a prefix to IDs
+    page-pagination: ''    # Enable pagination links
+    sectnums: ~            # Disable section numbering
+    table-caption: ~       # Disable prefixing table captions with "Table X"
+    collapsible: ''        # Enable native collapses
+
