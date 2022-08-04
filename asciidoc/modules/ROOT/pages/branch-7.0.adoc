@@ -1,0 +1,3 @@
+= All the fixes on branch 7.0
+
+include::example:ROOT:partial$fixes-7.0.adoc[]

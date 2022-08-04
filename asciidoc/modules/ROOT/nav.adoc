@@ -1,4 +1,4 @@
 .Example docs
 * xref:example:ROOT:index.adoc[]
-* xref:example:ROOT:branch-7.adoc[]
-* xref:example:ROOT:branch-6.adoc[]
+* xref:example:ROOT:branch-7.1.adoc[]
+* xref:example:ROOT:branch-7.0.adoc[]
