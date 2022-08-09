@@ -1,4 +1,4 @@
-= Sample project to reproduce PDF generation issues
+= PDF generation: warnings about ID reuse
 
 This is for investigating https://gitlab.com/antora/antora-assembler/[Antora Assembler]
 to produce PDFs in an Antora-native way, rather than our current hacks.
