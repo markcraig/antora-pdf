@@ -1,29 +1,31 @@
-= PDF generation: warnings about ID reuse
+= Testing Antora assembler for PDF builds
 
-This is for investigating https://gitlab.com/antora/antora-assembler/[Antora Assembler]
+This is for investigating https://gitlab.com/antora/antora-assembler/[Antora assembler]
 to produce PDFs in an Antora-native way, rather than our current hacks.
 
-It aims to reproduce problems encountered when generating PDFs that aren't seen when generating HTML.
+== Background
 
-== Before you start
+For details, refer to the 
+https://gitlab.com/antora/antora-assembler/-/blob/main/README.adoc[Antora assembler README].
 
-Follow the instructions in the 
-https://gitlab.com/antora/antora-assembler/-/blob/main/README.adoc[Antora Assembler README]
-to install the software you need for the builds.
-
-Notice that this repo already provides the `Gemfile`, `antora-assembler.yml`, and `pdf-theme.yml` files.
-
-== Build HTML
+== Install dependencies
 
 [source,zsh]
 ----
-npx antora site.yml
+npm install
+bundle config --local path .bundle/gems && bundle
 ----
 
-
-== Build PDF
+== Build
 
 [source,zsh]
 ----
-npx antora site-pdf.yml
+npx antora playbook.yml
 ----
+
+The output mentions the HTML, but not the PDF.
+
+Browse the HTML starting at `./build/site/index.html`.
+
+The PDF is generated in `build/assembler/example/example-docs.pdf`.
+The build copies to the file to `build/site/example/example-docs.pdf`.
