@@ -3,7 +3,7 @@ component_versions: '*'
 asciidoc:
   attributes:
     source-highlighter: rouge
-    pdf-theme: ./pdf-theme.yml
+    pdf-theme: pdf-theme.yml
 build:
   command: bundle exec asciidoctor-pdf --sourcemap
   keep_aggregate_source: true
